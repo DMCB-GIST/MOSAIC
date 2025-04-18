@@ -2,9 +2,9 @@
   <img src="https://raw.githubusercontent.com/DMCB-GIST/MFFA/main/Figure.png"/>
 </p>
 
-# MOSAIC: Multi-Omics Similarity Alignment for Integrated Classification
+# MOSAIC: Multi-Omics Similarity Alignment for Cancer Classification
 <p align="center">
-  <img src="https://raw.githubusercontent.com/DMCB-GIST/MFFA/main/pipeline.png"/>
+  <img src="https://raw.githubusercontent.com/DMCB-GIST/MFFA/main/Pipeline.png"/>
 </p>
 
 
