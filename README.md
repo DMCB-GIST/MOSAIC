@@ -9,8 +9,8 @@
 
 
 
-# Datasets
-[Preprocessed datasets](https://drive.google.com/file/d/1RY-TH9DfOMflGr_MgDcTy3ysRVIT2EuF/view?usp=drive_link)
+# Dataset
+[Preprocessed dataset](https://drive.google.com/file/d/1RY-TH9DfOMflGr_MgDcTy3ysRVIT2EuF/view?usp=drive_link)
 
 For any assistance, contact william0516@gm.gist.ac.kr
 
