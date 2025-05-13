@@ -13,7 +13,7 @@
 [Preprocessed dataset](https://drive.google.com/file/d/1RY-TH9DfOMflGr_MgDcTy3ysRVIT2EuF/view?usp=drive_link)
 
 # How to Run
-The train test split is done internally in the code, you can run the MOSAIC using the following command:
+The train test split is performed within the code to enable different splits across iterations, you can run the MOSAIC using the following command:
 ```
 python ./model/train.py --data_dir './data'
 ```
