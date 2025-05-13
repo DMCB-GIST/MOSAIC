@@ -22,7 +22,7 @@ import os
 
 def parse_args():
     parser = argparse.ArgumentParser(description="Run prediction pipeline with test dataset.")
-    parser.add_argument('--data_dir', type=str, required=True, default= './data',
+    parser.add_argument('--data_dir', type=str, required=True,
                         help='Path to the input data directory (e.g., ./data)')
     return parser.parse_args()
 
