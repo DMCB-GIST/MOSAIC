@@ -17,6 +17,18 @@ import tqdm
 import gc
 import sklearn.metrics as metrics
 
+import argparse
+import os
+
+def parse_args():
+    parser = argparse.ArgumentParser(description="Run prediction pipeline with test dataset.")
+    parser.add_argument('--data_dir', type=str, required=True, default= './data',
+                        help='Path to the input data directory (e.g., ./data)')
+    return parser.parse_args()
+
+args = parse_args()
+type = args.data_dir
+
 rg = 0.001
 learning_rate = 0.0001
 lr1 = 0.0001
@@ -24,7 +36,6 @@ lr2 = 0.0001
 n_epochs = 3000
 patience = 30
 
-type = '../data//'
 x1 = pd.read_csv(type + 'mRNA.csv', index_col=0, delimiter=',')
 x2 = pd.read_csv(type + 'miRNA.csv', index_col=0, delimiter=',')
 label = pd.read_csv(type + 'label.csv',  index_col=0,delimiter=',')
